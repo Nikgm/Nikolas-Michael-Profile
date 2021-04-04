@@ -1,20 +1,47 @@
-@media only screen and (max-width: 950px){
+@media only screen and (max-width: 768px){
+    #header{
+        width: 100vw;
+        position: static;
+        background-color: #F1F1F1;
+        height: auto;
+        z-index: 1;
+    }
+
+    #header-container h1{
+        font-family: 'Lexend Mega', sans-serif;
+        font-size: 1.5rem;
+        padding-left: 1rem;
+        display: block;
+        text-align: center;
+    }
+
     #header-container{
+        min-width: auto;
         width: 80%;
         margin: 0 auto;
         height: inherit;
     }
-
+    
     #header-container a{
         font-family: 'Montserrat', sans-serif;
         text-decoration: none;
+        border: none;
         color: black;
-        font-size: 1rem;
+        font-size: 1.5rem;
         padding-left: 1.2rem;
         padding-right: 1.2rem;
-        position: relative;
-        top: 30%;
-        display: inline;
-        border-right: solid 1px #808080;
+        display: block;
+        text-align: center;
+        padding-top: 1rem;
+    }
+    
+    #profilePic{
+        width:auto;
+    }
+
+    #aboutMeText{
+        font-size: 1.25rem;
+        clear: both;
+        padding-top: 1.5rem;
     }
 }

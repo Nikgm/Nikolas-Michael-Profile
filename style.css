@@ -8,6 +8,10 @@
     scroll-behavior: smooth;
 }
 
+body{
+    overflow-x: scroll;
+}
+
 #header{
     width: 100vw;
     position: fixed;

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&family=Montserrat&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+#header{
+    width: 100vw;
+    position: fixed;
+    background-color: #F1F1F1;
+    height: 3.25rem;
+    z-index: 1;
+}
+
+#header-container{
+    min-width: 950px;
+    width: 80%;
+    margin: 0 auto;
+    height: inherit;
+}
+
+#header-container h1{
+    font-family: 'Lexend Mega', sans-serif;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    position: relative;
+    top: 30%;
+    display: inline;
+}
+
+#header-container a{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    position: relative;
+    top: 30%;
+    display: inline;
+    border-right: solid 1px #808080;
+}
+
+#header-container a:last-child{
+    border-right: none;
+}
+
+#header-container img{
+    margin-left: 0.25rem;
+    width: 0.75rem;
+}
+
+
+/*ABOUT ME SECTION*/
+#about-me-section{
+    padding-top: 3rem;
+}
+
+#about-me-section h1{
+    font-family: 'Lexend Mega', sans-serif;
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    clear: both;
+    margin-top: 2rem;
+}
+
+#aboutMe{
+    background-color: lightgrey;
+    overflow: auto;
+    padding: 1rem;
+}
+
+#aboutMeContainer{
+    width: 60%;
+    margin: 0 auto;
+}
+
+#profilePic{
+    float: left;
+    width: 20rem;
+    margin-right: 2rem;
+}
+
+#aboutMeText{
+    font-family: Arial, Courier, monospace;
+}
+

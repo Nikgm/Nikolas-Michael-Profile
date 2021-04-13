@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:description" content="Nikolas Michael's Portfolio Page">
+    <meta property="og:title" content="Nikolas Michael">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style_mobile.css">
-    <title>Document</title>
+    <title>Nikolas Michael - Home</title>
 </head>
 <body>
     <div id="header">
@@ -14,10 +16,28 @@
             <h1>NIKOLAS MICHAEL</h1>
             <a href="">Home</a>
             <a href="">Projects
-            <img src="dropdown_arrow.png" alt="">
+            <img id="dropdown-arrow" src="dropdown_arrow.png" alt="dropdown arrow">
             </a>
             <a href="">Resume</a>
             <a href="">Contact</a>
+        </div>
+    </div>
+
+    <div id="carousel">
+        <div class="panel active" style="background-image: url('web_design.png');">
+            <h3>Website Development</h3>
+        </div>
+        
+        <div class="panel" style="background-image: url('mobile_dev.jpg');">
+            <h3>Mobile Development</h3>
+        </div>
+
+        <div class="panel" style="background-image: url('software_dev.png');">
+            <h3>Software Development</h3>
+        </div>
+
+        <div class="panel" style="background-image: url('electrical_schematics.png');">
+            <h3>Electrical Schematics</h3>
         </div>
     </div>
 
@@ -38,7 +58,50 @@
         </div>
     </div>
 
+    <div id="programming-skills-section">
+        <h1>KNOWLEDGEABLE IN</h1>
+        <div id="prgSkills">
+            <div id="prgSkillsContainer">
+                    <img src="images/HTML5_Logo.png" alt="HTML5 Logo" title="HTML5">
+                    <img src="images/CSS3_logo.png" alt="CSS Logo" title="CSS">
+                    <img src="images/Javascript_logo.png" alt="Javascript logo" title="JavaScript">
+                    <img src="images/jquery_logo.png" alt="Jquery logo" title="JQuery">
+                    <img src="images/php_logo.png" alt="PHP logo" title="PHP">
+                    <img src="images/python_logo.png" alt="Python logo" title="Python">
+                    <img src="images/React_logo.png" alt="React logo" title="React">
+                    <img src="images/SQL_logo.png" alt="SQL logo" title="SQL">
+                    <img src="images/angular_logo.png" alt="Angular logo" title="Angular">
+            </div>
+            <a href=""><p class="test">And More...</p></a>
+        </div>
+    </div>
 
+    <div id="contact-section">
+        <h1>CONTACT</h1>
+        <div id="contact">
+            <div id="contactContainer">
+                <div id="phoneNumber">
+                    <p><b>Phone #:</b></p>
+                    <p><b>647-988-4670</b></p>
+                    <p><b>Email:</b></p>
+                    <p><b>nikolasmichael1996@gmail.com</b></p>
+                </div>
+                <div id="contact-info">
+                    <input type="text" placeholder="Subject (100 characters max)" maxlength="100">
+                    <textarea name="email" cols="50" rows="5" class="contactField" 
+                    placeholder="Enter Message Here! (1000 characters max)" maxlength="1000" ></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div id="footerContainer">
+            <p>Nikolas Michael</p>
+            <p>Last Updated: March 13, 2021</p>
+            <p>BACK TO TOP</p>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>

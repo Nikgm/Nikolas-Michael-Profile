@@ -34,6 +34,10 @@
         text-align: center;
         padding-top: 1rem;
     }
+
+    #dropdown-arrow{
+        display: none;
+    }
     
     #profilePic{
         width:auto;
@@ -44,10 +48,36 @@
         clear: both;
         padding-top: 1.5rem;
     }
+
+    #contact{
+        height: inherit ;
+    }
+
+    #contactContainer{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #phoneNumber{
+        font-size: 2rem;
+    }
+
+    #contact-info{
+        width: inherit;
+    }
+
+    #contact-info input{
+        width: 100%;
+    }
+    
+    textarea{
+        width: 100%;
+    }
 }
 
 
-@media only screen and (max-width: 550px){
+@media only screen and (max-width: 425px){
     #header-container h1{
         font-size: 1.25rem;
     }
@@ -60,14 +90,30 @@
         margin: 0 auto;
     }
 
+    #dropdown-arrow{
+        display: none;
+    }
+
     #profilePic{
         width:80vw;
         padding: none;
+    }
+
+    #about-me-section h1{
+        font-size: 1.25rem;
     }
 
     #aboutMeText{
         padding: 0;
         padding-top: 1rem;
         font-size: 1rem;
+    }
+
+    #programming-skills-section h1{
+        font-size: 1.25rem;
+    }
+
+    #prgSkillsContainer img{
+        width: 4.25rem;
     }
 }

@@ -12,3 +12,12 @@ function removeActiveClasses() {
         panel.classList.remove('active')
     })
 }
+
+const menuButton = document.getElementById('menu-icon')
+const menuList = document.getElementById('navLinks')
+
+menuButton.addEventListener('click', () =>{
+    menuButton.style.display = 'none'
+    menuList.style.display = 'block'
+
+})

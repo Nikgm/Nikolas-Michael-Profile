@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&family=Montserrat&display=swap');
 
 *{
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-size: 16px;
+    box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
-body{
+html{
+    font-size: 16px;
+}
+
+html, body{
     overflow-x: hidden;
 }
 
@@ -37,6 +40,10 @@ body{
     display: inline;
 }
 
+#menu-icon{
+    display: none;
+}
+
 #header-container a{
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
@@ -54,7 +61,7 @@ body{
     border-right: none;
 }
 
-#header-container img{
+#dropdown-arrow{
     margin-left: 0.25rem;
     width: 0.75rem;
 }
@@ -72,6 +79,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     height: 60vh;
+    max-height: 30rem;
     border-radius: 3.15rem;
     border: black 1px solid;
     cursor: pointer;
@@ -164,7 +172,7 @@ body{
     padding-right: 1rem;
 }
 
-#programming-skills-section a, a:hover, a:visited, a:active {
+#programming-skills-section a,#programming-skills-section a:hover,#programming-skills-section a:visited,#programming-skills-section a:active {
     font-family: 'Montserrat', sans-serif;
     color: #000;
     transform: rotate(-90deg);

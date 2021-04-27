@@ -15,6 +15,12 @@ html, body{
     overflow-x: hidden;
 }
 
+#main-page-content{
+    display: block;
+}
+#projects-content{
+    display: none;
+}
 /*NAVIGATION BAR*/
 #header{
     width: 100vw;
@@ -44,7 +50,25 @@ html, body{
     display: none;
 }
 
-#header-container a{
+#exit-menu-row{
+    display: block;
+    text-align: center;
+    padding-top: 0.5rem;
+    /*display: none;*/
+}
+
+#exit-menu-button{
+    display: none;
+    border: 2px solid black;
+    border-radius: 50%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #D3D3D3;
+    font-weight: bold;
+    padding: 0.4rem;
+    margin-bottom: 0.25rem;
+}
+
+#header-container p{
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     color: black;
@@ -55,10 +79,11 @@ html, body{
     top: 30%;
     display: inline;
     border-right: solid 1px #808080;
+    cursor: pointer;
 }
 
-#header-container a:last-child{
-    border-right: none;
+#contact-nav-link{
+    border-right: none !important;
 }
 
 #dropdown-arrow{
@@ -235,6 +260,58 @@ textarea{
     width: 100%;
     resize: none;
     height: 9rem;
+}
+
+
+/*PROJECTS PAGE*/
+#projects-container{
+    padding-top: 3rem;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.project-links{
+    overflow: auto;
+    padding-top: 2rem;
+}
+
+#main-website-images{
+    border: 0.1rem solid black;
+    border-radius: 5%;
+    width: 25rem;
+    float: left;
+}
+
+.html-tag{
+    font-family: 'Montserrat', sans-serif;
+    display: inline;
+    border-radius: 1rem;
+    color: white;
+    background-color: #E96228;
+    padding: 0.5rem;
+    float: left;
+}
+
+.css-tag{
+    font-family: 'Montserrat', sans-serif;
+    display: inline;
+    border-radius: 1rem;
+    color: white;
+    background-color: #254BDD;
+    padding: 0.5rem;
+    margin-left: 0.25rem;
+    float: left;
+}
+
+.js-tag{
+    font-family: 'Montserrat', sans-serif;
+    display: inline;
+    border-radius: 1rem;
+    color: white;
+    background-color: #EFD81D   ;
+    padding: 0.5rem;
+    margin-left: 0.25rem;
+    float: left;
 }
 
 /*FOOTER*/

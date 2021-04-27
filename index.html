@@ -19,16 +19,16 @@
             <h1>NIKOLAS MICHAEL</h1>
             <img id="menu-icon" src="images/menu_icon.png" alt="menu expand">
             <span id="navLinks">
-                <a href="">Home</a>
-                <a href="">Projects
-                <img id="dropdown-arrow" src="images/dropdown_arrow.png" alt="dropdown arrow">
-                </a>
-                <a href="">Resume</a>
-                <a href="">Contact</a>
+                <p id="home-nav-link" href="">Home</p>
+                <p id="project-nav-link" href="">Projects</p>
+                <p href="">Resume</p>
+                <p id="contact-nav-link" href="">Contact</p>
+                <div id="exit-menu-row"><div id="exit-menu-button">X</div></div>
             </span>
-        </div>
-    </div>
+        </div><!--id: header-container div-->
+    </div><!--id: header div-->
 
+    <div id="main-page-content">
     <div id="carousel">
         <div class="panel active" style="background-image: url('images/web_design.png');">
             <h3>Website Development</h3>
@@ -78,7 +78,7 @@
                     <img src="images/SQL_logo.png" alt="SQL logo" title="SQL">
                     <img src="images/angular_logo.png" alt="Angular logo" title="Angular">
             </div>
-            <a href=""><p class="test">And More...</p></a>
+            <a href=""><p>And More...</p></a>
         </div>
     </div>
 
@@ -93,10 +93,40 @@
                     <p><b>nikolasmichael1996@gmail.com</b></p>
                 </div>
                 <div id="contact-info">
-                    <input type="text" placeholder="Subject (100 characters max)" maxlength="100">
+                    <input class="contactField" type="text" placeholder="Subject (100 characters max)" maxlength="100">
                     <textarea name="email" cols="50" rows="5" class="contactField" 
                     placeholder="Enter Message Here! (1000 characters max)" maxlength="1000" ></textarea>
                 </div>
+            </div>
+        </div>
+    </div>
+    </div><!--main-page-content div-->
+
+    <div id="projects-content">
+        <div id="projects-container">
+            <div class="project-links">
+                <img id="main-website-images" src="images/main_website.png" alt="main website">
+                <h1>Personal Website</h1>
+                <div>
+                    <div class="html-tag">HTML</div>
+                    <div class="css-tag">CSS</div>
+                    <div class="js-tag">JavaScript</div>
+                </div>
+                <p>
+                    This is my main website, it features my projects, skills and little bit about me.
+                    Everything on this website was built only using vanilla HTML, CSS, JS and PHP. No frameworks, plugins or libraries.
+                    Today the front-end world works on these things and we often forget the possibilities of using just HTML/CSS/JS. 
+                    I have other projects that utilize 
+                </p>
+            </div>
+            <div class="project-links">
+                <img id="main-website-images" src="images/main_website.png" alt="main website">
+                <p>
+                    This is my main website, it features my projects, skills and little bit about me.
+                    Everything on this website was built only using vanilla HTML, CSS, JS and PHP. No frameworks, plugins or libraries.
+                    Today the front-end world works on these things and we often forget the possibilities of using just HTML/CSS/JS. 
+                    I have other projects that utilize 
+                </p>
             </div>
         </div>
     </div>

@@ -17,10 +17,12 @@
 
     #menu-icon{
         display: block;
-        width: 5vw;
+        width: 8vw;
+        min-width: 3rem;
         margin: 0 auto;
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
+        cursor: pointer;
     }
 
     #header-container{
@@ -34,7 +36,7 @@
         display: none;
     }
 
-    #header-container a{
+    #header-container p{
         font-family: 'Montserrat', sans-serif;
         text-decoration: none;
         border: none;
@@ -101,7 +103,7 @@
     #header-container h1{
         font-size: 1.25rem;
     }
-    #header-container a{
+    #header-container p{
         font-size: 1.1rem;
     }
 

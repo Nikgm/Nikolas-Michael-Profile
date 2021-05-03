@@ -283,6 +283,7 @@ textarea{
     font-size: large;
 }
 
+
 .website-title, .website-title:hover, .website-title:visited{
     color: black;
 }
@@ -297,6 +298,7 @@ textarea{
     border-radius: 5%;
     width: 25rem;
     float: left;
+    margin-right: 1vw;
 }
 
 .html-tag{
@@ -363,4 +365,10 @@ textarea{
 #footerContainer{
     width: 90%;
     margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+}
+
+#footerContainer a:hover, #footerContainer a:visited{
+    color: white;
 }

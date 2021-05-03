@@ -46,25 +46,16 @@ exitMenu.addEventListener('click', () =>{
     exitMenu.style.display = 'none'
 })
 
-let windowSize = window.matchMedia("(max-width: 768px)");
 
-if (windowSize.matches){
-    console.log('screen is ma')
-    menuButton.style.display = 'block'
+/*let windowSize = window.matchMedia("(max-width: 768px)");
+
+function windowSizeChange(windowSize){
+    if (windowSize.matches){
+        menuButton.style.display = 'block'
+    }else{
+        menuButton.style.display = 'none'
+    }
 }
 
-const mediaQuery = window.matchMedia('(min-width: 768px)')
-
-function handleTabletChange(e) {
-  // Check if the media query is true
-  if (e.matches) {
-    // Then log the following message to the console
-    console.log('Media Query Matched!')
-  }
-}
-
-// Register event listener
-mediaQuery.addListener(handleTabletChange)
-
-
-handleTabletChange(mediaQuery)
+windowSize.addListener(windowSizeChange);
+windowSizeChange(windowSize);*/

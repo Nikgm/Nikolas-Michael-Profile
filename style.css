@@ -15,6 +15,10 @@ html, body{
     overflow-x: hidden;
 }
 
+a, a:visited, a:hover{
+    text-decoration: none;
+}
+
 #main-page-content{
     display: block;
 }
@@ -54,7 +58,6 @@ html, body{
     display: block;
     text-align: center;
     padding-top: 0.5rem;
-    /*display: none;*/
 }
 
 #exit-menu-button{
@@ -275,6 +278,20 @@ textarea{
     padding-top: 2rem;
 }
 
+.project-links h1{
+    font-family: 'Lexend Mega', sans-serif;
+    font-size: large;
+}
+
+.website-title, .website-title:hover, .website-title:visited{
+    color: black;
+}
+
+.programming-tags{
+    overflow: auto;
+    display: block;
+}
+
 #main-website-images{
     border: 0.1rem solid black;
     border-radius: 5%;
@@ -309,6 +326,28 @@ textarea{
     border-radius: 1rem;
     color: white;
     background-color: #EFD81D   ;
+    padding: 0.5rem;
+    margin-left: 0.25rem;
+    float: left;
+}
+
+.jquery-tag{
+    font-family: 'Montserrat', sans-serif;
+    display: inline;
+    border-radius: 1rem;
+    color: white;
+    background-color: #1D2D39;
+    padding: 0.5rem;
+    margin-left: 0.25rem;
+    float: left;
+}
+
+.bootstrap-tag{
+    font-family: 'Montserrat', sans-serif;
+    display: inline;
+    border-radius: 1rem;
+    color: white;
+    background-color: #563D7C;
     padding: 0.5rem;
     margin-left: 0.25rem;
     float: left;

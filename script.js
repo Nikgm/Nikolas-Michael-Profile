@@ -1,5 +1,6 @@
 const mainPageContent = document.getElementById('main-page-content');
 const projectsContent = document.getElementById('projects-content');
+const contactButton = document.getElementById('contact-nav-link');
 
 const panels = document.querySelectorAll('.panel');
 
@@ -29,6 +30,10 @@ projectNavLink.addEventListener('click',() =>{
     projectsContent.style.display = 'block';
 });
 
+contactButton.addEventListener('click',() =>{
+    mainPageContent.style.display = 'block';
+    projectsContent.style.display = 'none';
+});
 
 const menuButton = document.getElementById('menu-icon');
 const menuList = document.getElementById('navLinks');

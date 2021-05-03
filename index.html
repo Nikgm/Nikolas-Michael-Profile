@@ -13,17 +13,17 @@
     <link rel="stylesheet" href="style_mobile.css">
     <title>Nikolas Michael - Home</title>
 </head>
-<body>
+<body onload='location.href="#top"'>
     <div id="top"></div>
     <div id="header">
         <div id="header-container">
             <h1>NIKOLAS MICHAEL</h1>
             <img id="menu-icon" src="images/menu_icon.png" alt="menu expand">
             <span id="navLinks">
-                <p id="home-nav-link" href="">Home</p>
+                <a href="#top"><p id="home-nav-link" href="">Home</p></a>
                 <p id="project-nav-link" href="">Projects</p>
                 <p href="">Resume</p>
-                <p id="contact-nav-link" href="">Contact</p>
+                <a href="#contact"><p id="contact-nav-link">Contact</p></a>
                 <div id="exit-menu-row"><div id="exit-menu-button">X</div></div>
             </span>
         </div><!--id: header-container div-->
@@ -43,8 +43,8 @@
             <h3>Software Development</h3>
         </div>
 
-        <div class="panel" style="background-image: url('images/electrical_schematics.png');">
-            <h3>Electrical Schematics</h3>
+        <div class="panel" style="background-image: url('images/backend_development.jpg');">
+            <h3>Backend Development</h3>
         </div>
     </div>
 
@@ -107,7 +107,7 @@
         <div id="projects-container">
 
             <div class="project-links">
-                <img id="main-website-images" src="images/main_website.png" alt="main website">
+                <img class="website-images" src="images/main_website.png" alt="main website">
                 <div class="website-desc">
                     <a class="website-title" href="https://nikgm.github.io/Nikolas-Michael-Profile/" target="_blank"><h1>Personal Website</h1></a>
                     <div class="programming-tags">
@@ -126,7 +126,7 @@
             </div><!--project-links class-->
 
             <div class="project-links">
-                <img id="main-website-images" src="images/rbr_website.png" alt="Mark's Website">
+                <img class="website-images" src="images/rbr_website.png" alt="Mark's Website">
                 <div class="website-desc">
                     <a class="website-title" href="https://retributionbyrevenue.github.io/RetributionByRevenue/?fbclid=IwAR3F0zg0HARddETlFscGwCV8QCedlkEf4WWBSZNaNjS_ZGhEMjGQabEg3O8" target="_blank"><h1>Mark's Website</h1></a>
                     <div class="programming-tags">
@@ -146,7 +146,7 @@
             </div><!--project-links class-->
 
             <div class="project-links">
-                <img id="main-website-images" src="images/quote_generator.png" alt="Quote Generator Website">
+                <img class="website-images" src="images/quote_generator.png" alt="Quote Generator Website">
                 <div class="website-desc">
                     <a class="website-title" href="https://nikgm.github.io/quote-generator/" target="_blank"><h1>Quote Generator</h1></a>
                     <div class="programming-tags">
@@ -161,8 +161,9 @@
                     </p>
                 </div>
             </div><!--project-links class-->
-        </div>
-    </div>
+            <a id="github-link" href="https://github.com/Nikgm" target="_blank"><img id="github-logo" src="images/github_logo.png" alt="github logo"> LINK TO GITHUB!</a>
+        </div><!--projects-container id-->
+    </div><!--projects-content-->
 
     <div id="footer">
         <div id="footerContainer">

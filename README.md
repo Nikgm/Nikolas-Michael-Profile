@@ -25,6 +25,6 @@ so the browser lowered the perfomance score because it was not able to cache any
 implement htaccess so that the images can be cache to improve performance. However this is not a big deal as the images used are relatively small.
 
 <br><br>
-<img src="images/lighthouse_report/Mobile_lighthouse_report2.png">
+<img src="images/lighthouse_report/Mobile_lighthouse_report2.png"><br>
 Lighthouse isn't perfect, it had an issue with the contrast ratio of the footer. Though, lighthouse has various issues with black and white text placed on colourful
 backgrounds. I think the contrast is okay, changing the colour of the text or footer to something different I believe would ruin the aesthetic of the page.

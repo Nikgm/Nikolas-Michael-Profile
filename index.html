@@ -4,10 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:image" content="images/preview.png">
-    <meta property="og:description" content="Nikolas Michael's Portfolio Page">
-    <meta property="og:title" content="Nikolas Michael">
-    <meta property="og:url"content="images/preview.png">
+    <meta name="Nikolas Michae's Portfolio Website">
     <link rel ="image_src" href="images/preview.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style_mobile.css">
@@ -18,12 +15,12 @@
     <div id="header">
         <div id="header-container">
             <h1>NIKOLAS MICHAEL</h1>
-            <img id="menu-icon" src="images/menu_icon.png" alt="menu expand">
+            <img style="height: 2.8125rem;" id="menu-icon" src="images/menu_icon.png" alt="menu expand">
             <span id="navLinks">
                 <a href="#top"><p id="home-nav-link" href="">Home</p></a>
-                <p id="project-nav-link" href="">Projects</p>
-                <p href="">Resume</p>
-                <a href="#contact"><p id="contact-nav-link">Contact</p></a>
+                <p id="project-nav-link">Projects</p>
+                <p id="resume-nav-link">Resume</p>
+                <a href="#contact"><p style="border-right:none;" id="contact-nav-link">Contact</p></a>
                 <div id="exit-menu-row"><div id="exit-menu-button">X</div></div>
             </span>
         </div><!--id: header-container div-->
@@ -69,17 +66,17 @@
         <h1>KNOWLEDGEABLE IN</h1>
         <div id="prgSkills">
             <div id="prgSkillsContainer">
-                    <img src="images/HTML5_Logo.png" alt="HTML5 Logo" title="HTML5">
-                    <img src="images/CSS3_logo.png" alt="CSS Logo" title="CSS">
-                    <img src="images/Javascript_logo.png" alt="Javascript logo" title="JavaScript">
-                    <img src="images/jquery_logo.png" alt="Jquery logo" title="JQuery">
-                    <img src="images/php_logo.png" alt="PHP logo" title="PHP">
-                    <img src="images/python_logo.png" alt="Python logo" title="Python">
-                    <img src="images/React_logo.png" alt="React logo" title="React">
-                    <img src="images/SQL_logo.png" alt="SQL logo" title="SQL">
-                    <img src="images/angular_logo.png" alt="Angular logo" title="Angular">
+                    <img style="height: 7.385rem;" src="images/HTML5_Logo.png" alt="HTML5 Logo" title="HTML5">
+                    <img style="height: 7.4375rem;" src="images/CSS3_logo_min.png" alt="CSS Logo" title="CSS">
+                    <img style="height: 5.95rem;" src="images/Javascript_logo.png" alt="Javascript logo" title="JavaScript">
+                    <img style="height: 5.5625rem;" src="images/jquery_logo_min.png" alt="Jquery logo" title="JQuery">
+                    <img style="height: 2.8125rem;" src="images/php_logo_min.png" alt="PHP logo" title="PHP">
+                    <img style="height: 5.25rem;" src="images/python_logo.png" alt="Python logo" title="Python">
+                    <img style="height: 4.6875rem;" src="images/React_logo_min.png" alt="React logo" title="React">
+                    <img style="height: 3.805rem;" src="images/SQL_logo.png" alt="SQL logo" title="SQL">
+                    <img style="height: 5.613rem;" src="images/angular_logo.png" alt="Angular logo" title="Angular">
             </div>
-            <a href=""><p>And More...</p></a>
+            <p onclick="resumeNavLink.click()">And More...</p>
         </div>
     </div>
 
@@ -97,6 +94,7 @@
                     <input class="contactField" type="text" placeholder="Subject (100 characters max)" maxlength="100">
                     <textarea name="email" cols="50" rows="5" class="contactField" 
                     placeholder="Enter Message Here! (1000 characters max)" maxlength="1000" ></textarea>
+                    <input id="submit-btn" type="submit"> Max character limit reached!
                 </div>
             </div>
         </div>
@@ -109,11 +107,11 @@
             <div class="project-links">
                 <img class="website-images" src="images/main_website.png" alt="main website">
                 <div class="website-desc">
-                    <a class="website-title" href="https://nikgm.github.io/Nikolas-Michael-Profile/" target="_blank"><h1>Personal Website</h1></a>
+                    <a class="website-title" href="https://nikgm.github.io/Nikolas-Michael-Profile/" target="_blank" rel="noopener"><h1>Personal Website</h1></a>
                     <div class="programming-tags">
-                        <div class="html-tag">HTML</div>
-                        <div class="css-tag">CSS</div>
-                        <div class="js-tag">JavaScript</div>
+                        <div class="prg-tag" style="background-color:#e96228; margin-left:0">HTML</div>
+                        <div class="prg-tag" style="background-color:#254bdd;">CSS</div>
+                        <div class="prg-tag" style="background-color:#efd81d;">JavaScript</div>
                     </div>
                     <p>
                         This is my main website, it features my projects, skills and little bit about me.
@@ -128,12 +126,12 @@
             <div class="project-links">
                 <img class="website-images" src="images/rbr_website.png" alt="Mark's Website">
                 <div class="website-desc">
-                    <a class="website-title" href="https://retributionbyrevenue.github.io/RetributionByRevenue/?fbclid=IwAR3F0zg0HARddETlFscGwCV8QCedlkEf4WWBSZNaNjS_ZGhEMjGQabEg3O8" target="_blank"><h1>Mark's Website</h1></a>
+                    <a class="website-title" href="https://retributionbyrevenue.github.io/RetributionByRevenue/?fbclid=IwAR3F0zg0HARddETlFscGwCV8QCedlkEf4WWBSZNaNjS_ZGhEMjGQabEg3O8" target="_blank" rel="noopener"><h1>Mark's Website</h1></a>
                     <div class="programming-tags">
-                        <div class="html-tag">HTML</div>
-                        <div class="css-tag">CSS</div>
-                        <div class="js-tag">JavaScript</div>
-                        <div class="jquery-tag">jQuery</div>
+                        <div class="prg-tag" style="background-color:#e96228; margin-left:0">HTML</div>
+                        <div class="prg-tag" style="background-color:#254bdd;">CSS</div>
+                        <div class="prg-tag" style="background-color:#efd81d;">JavaScript</div>
+                        <div class="prg-tag" style="background-color:#1d2d39;">jQuery</div>
                     </div>
                     <p>
                         This website was developed for a friend to track the progress of his cryptocurrency investments. Most of the backend
@@ -148,12 +146,12 @@
             <div class="project-links">
                 <img class="website-images" src="images/quote_generator.png" alt="Quote Generator Website">
                 <div class="website-desc">
-                    <a class="website-title" href="https://nikgm.github.io/quote-generator/" target="_blank"><h1>Quote Generator</h1></a>
+                    <a class="website-title" href="https://nikgm.github.io/quote-generator/" target="_blank" rel="noopener"><h1>Quote Generator</h1></a>
                     <div class="programming-tags">
-                        <div class="html-tag">HTML</div>
-                        <div class="css-tag">CSS</div>
-                        <div class="bootstrap-tag">Bootstrap</div>
-                        <div class="jquery-tag">jQuery</div>
+                        <div class="prg-tag" style="background-color:#e96228; margin-left:0">HTML</div>
+                        <div class="prg-tag" style="background-color:#254bdd;">CSS</div>
+                        <div class="prg-tag" style="background-color:#563d7c;">Bootstrap</div>
+                        <div class="prg-tag" style="background-color:#1d2d39;">jQuery</div>
                     </div>
                     <p>
                         This website is a random quote generator website using Bootstrap as a framework. Quotes are placed in an object array
@@ -161,9 +159,15 @@
                     </p>
                 </div>
             </div><!--project-links class-->
-            <a id="github-link" href="https://github.com/Nikgm" target="_blank"><img id="github-logo" src="images/github_logo.png" alt="github logo"> LINK TO GITHUB!</a>
+            <a id="github-link" href="https://github.com/Nikgm" target="_blank" rel="noopener"><img id="github-logo" src="images/github_logo.png" alt="github logo"> LINK TO GITHUB!</a>
         </div><!--projects-container id-->
     </div><!--projects-content-->
+
+    <div id="resume-content">
+        <h1>RESUME</h1>
+        <iframe src="resume.html" frameborder="0" id="resume"></iframe>
+        <p id="pdf-link"><b>Download PDF Version <span id="pdf-text"></span></b></p>
+    </div>
 
     <div id="footer">
         <div id="footerContainer">

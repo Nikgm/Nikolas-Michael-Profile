@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&family=Montserrat&display=swap');*{margin:0;padding:0;box-sizing:border-box;scroll-behavior:smooth}
-html{font-size:16px}
+html{font-size:16px; box-sizing: border-box;}
 html, body{overflow-x:hidden}
+
 a,a:visited,a:hover{text-decoration:none}
 #main-page-content{display:block}
 #menu-icon, #projects-content, #resume-content{display:none}

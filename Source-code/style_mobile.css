@@ -15,6 +15,7 @@
     #phoneNumber b{font-size:.8rem}
     #contact-info{width:inherit}
     #contact-info input{width:100%}
+    #submit-btn{width: 50% !important;}
     textarea{width:100%}
     }
     

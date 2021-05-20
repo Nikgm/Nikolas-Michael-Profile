@@ -14,7 +14,7 @@ Though as we will see, these problems can be exacerbated on mobile with it's lim
 <h2><b>Mobile Lighthouse Report</b></h2>
 
 <img src="images/lighthouse_report/Mobile_lighthouse_report.png">
-Performance in mobile will almost always be lower than desktop but making your code more efficient make your website run more smoothly. For example, I have not 
+Performance in mobile will almost always be lower than desktop but making your code more efficient will make your website run more smoothly. For example, I have not 
 incorporated async JS into this project as I believe it's not worth it given the JS is less than 100 lines long. As well, this test was done NOT using incognito mode.
 The performance score goes up in incognito because the browser isn't expected to cache any assets.
 
